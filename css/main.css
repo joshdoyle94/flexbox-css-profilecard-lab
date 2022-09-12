@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Helvetica;
+    background-color: rgb(17,83,83);
+    flex-direction: column;
+  }
+
+.heading {
+    color: red
+}
+
+.flex {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 100px 100px 100px;
+}
+
+#online-status {
+    color: grey;
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px 0 0;
+    font-size: 10px;
+}
+
+#john {
+    border-radius: 50%;
+    border: 5px solid rgb(90,202,105);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8px 75px;
+}
+
+.heading {
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.ratings {
+    background-color: rgb(241,241,241);
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0 0px 0;
+    padding-top: 2px;
+}
+
+.rate {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(160,160,162)
+}
+
+#rate-bold {
+    font-weight: bold;
+    color: black;
+}
+
+#yellow-star1 {
+    color: rgb(241,208,76)
+}
+
+#yellow-star2 {
+    color: rgb(241,208,76)
+}
+
+#yellow-star3 {
+    color: rgb(241,208,76)
+}
+
+#yellow-star4 {
+    color: rgb(241,208,76)
+}
+
+#yellow-star5 {
+    color: rgb(241,208,76)
+}
+
+#grey-star {
+    color: rgb(198,198,198)
+}
+
+.phone-messages {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+#phone-icon {
+    color: white;
+    margin: 10px 10px 0px 0px;
+}
+
+#message-icon {
+    color: white;
+    margin: 10px 0 0px 10px;
+}
